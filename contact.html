@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactez-nous - Immo Kongo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <h1 class="header__title">Immo Kongo</h1>
+        </div>
+        <nav class="header__navigation">
+          <ul class="header__menu">
+            <li class="header__item">
+              <a class="header__link" href="./index.html">Accueil</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="./contact.html">Contact</a>
+            </li>
+            <li class="header__item">
+              <img
+                class="header__icon"
+                src="Assets/icon/Search.svg"
+                alt="Search Icon"
+              />
+              <input
+                type="text"
+                class="header__search-input"
+                placeholder="Search..."
+              />
+            </li>
+            <li class="header__item">
+              <button class="header__button primary-btn">
+                Réserver Maintenant
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="contact-section">
+      <div class="contact-section__header">
+        <h1>Contactez-nous</h1>
+        <p>
+          Si vous avez des questions ou des préoccupations, n'hésitez pas à nous
+          contacter. Nous sommes là pour vous aider !
+        </p>
+      </div>
+
+      <div class="contact-section__content">
+        <div class="contact-section__info">
+          <h2>Informations de Contact</h2>
+          <p>Vous pouvez nous joindre par téléphone ou par e-mail.</p>
+          <p><strong>Téléphone :</strong> +243 000 000 000</p>
+          <p><strong>Email :</strong> contact@immokongo.com</p>
+        </div>
+
+        <div class="contact-section__form-container">
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Nom</label>
+              <input type="text" id="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" required></textarea>
+            </div>
+            <button type="submit" class="form-button">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__branding">
+          <a href="index.html" class="footer__logo">IMMO KONGO</a>
+          <p class="footer__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <div class="footer__links">
+            <h3 class="footer__links-title">Liens</h3>
+            <ul class="footer__links-list">
+              <li class="footer__link-item">
+                <a href="index.html" class="footer__link">Accueil</a>
+              </li>
+              <li class="footer__link-item">
+                <a href="#rooms" class="footer__link">Nos Chambres</a>
+              </li>
+              <li class="footer__link-item">
+                <a href="#services" class="footer__link">Nos Services</a>
+              </li>
+              <li class="footer__link-item">
+                <a href="#" class="footer__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__contact">
+            <h3 class="footer__contact-title">Contactez-Nous</h3>
+            <p class="footer__contact-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+              illum adipisci neque alias.
+              <br />
+              Itaque ipsa voluptatibus explicabo, illum animi expedita aperiam
+              nobis? Officia, id tempore?
+            </p>
+            <div class="footer__contact-item">
+              <img
+                class="footer__contact-icon"
+                src="Assets/icon/maps.svg"
+                alt="Adresse"
+              />
+              <p class="footer__contact-text">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="footer__contact-item">
+              <img
+                class="footer__contact-icon"
+                src="Assets/icon/phone.svg"
+                alt="Téléphone"
+              />
+              <p class="footer__contact-text">+243 000 000 000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright-container">
+        <p class="footer__copyright">Copyright 2024. Tous droits réservés.</p>
+        <p class="footer__credit">
+          Built by :
+          <a href="https://gad-ntenta.vercel.app" class="footer__credit-link"
+            >Gad Ntenta</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
